@@ -1,0 +1,3 @@
+C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/glad-populate.dir
+C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-subbuild/CMakeFiles/rebuild_cache.dir
