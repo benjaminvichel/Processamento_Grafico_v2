@@ -1,7 +1,7 @@
 # ninja log v6
-8	511	7693312669804271	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	2c35680e7f822194
+8	762	7693315960740072	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	ba98b956cdc90bf9
 1816	2038	7693301138203667	_deps/glfw-build/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj	6c2b614efaddb40
-512	743	7693312674817442	Exercicios/Modulo2/Modulo2.exe	a3be490d889fc13d
+775	959	7693315968411820	Exercicios/Modulo2/Modulo2.exe	a3be490d889fc13d
 96	478	7693301121043935	_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj	817c76cb57726051
 884	1054	7693301128987074	_deps/glfw-build/examples/CMakeFiles/gears.dir/glfw.rc.res	91a8563721b8d726
 88	493	7693301121043935	_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj	7d58917f8d91c261
@@ -132,9 +132,6 @@
 5236	6063	7693301172452024	_deps/glfw-build/tests/threads.exe	d90ee57bcf5bcd41
 5429	6063	7693301174326583	_deps/glfw-build/tests/triangle-vulkan.exe	15aa35ff5ced8782
 5499	6102	7693301175107650	_deps/glfw-build/tests/windows.exe	2a5d2762ad7c10b4
-7	365	7693310948642782	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/__/__/common/glad/src/glad.c.obj	66d6a05ab6d2d929
-9	754	7693315159333515	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	ba98b956cdc90bf9
 7	360	7693315245227013	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/__/__/common/glad/src/glad.c.obj	90809e611d9a94c8
-360	609	7693315248756411	Exercicios/Modulo2/Modulo2.exe	a3be490d889fc13d
-8	762	7693315960740072	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	ba98b956cdc90bf9
-775	959	7693315968411820	Exercicios/Modulo2/Modulo2.exe	a3be490d889fc13d
+12	1097	7694850213502323	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	ba98b956cdc90bf9
+8	276	7694850253037638	Exercicios/Modulo2/Modulo2.exe	a3be490d889fc13d

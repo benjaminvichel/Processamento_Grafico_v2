@@ -147,7 +147,8 @@ int main() {
 
     std::vector<Triangle> triangles;
 
-    
+    triangles.push_back({ glm::vec2(0.0f, 0.0f), glm::vec3(1.0f, 1.0f, 1.0f) });
+
     glfwSetMouseButtonCallback(window, [](GLFWwindow* win, int button, int action, int mods) {
         if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
             double xpos, ypos;
