@@ -102,34 +102,41 @@ int main()
 	std::vector<Sprite*> sprites;
 	
 	
+	// Building 1
 	sprites.push_back(new Sprite("assets/Building1_light_shadow.png", shaderID));
 	sprites[0]->setScale(glm::vec3(300, 300, 0));
-	sprites[0]->setTranslate(glm::vec3(300 / 2.0f, 300 / 2.0f, 0)); 
-	
+	sprites[0]->setTranslate(glm::vec3(150, 150, 0));
+
+	// Building 2
 	sprites.push_back(new Sprite("assets/Building2_dark_shadow.png", shaderID));
 	sprites[1]->setScale(glm::vec3(300, 300, 0));
-	sprites[1]->setTranslate(glm::vec3(800 - 300 / 2.0f, 300 / 2.0f, 0)); 
+	sprites[1]->setTranslate(glm::vec3(800 - 150, 150, 0)); 
 
+	// Caveman Statue
 	sprites.push_back(new Sprite("assets/caveman_statue_light_shadow1.png", shaderID));
 	sprites[2]->setScale(glm::vec3(100, 100, 0));
-	sprites[2]->setTranslate(glm::vec3(050, 100 / 2.0f, 0)); 
+	sprites[2]->setTranslate(glm::vec3(50, 50, 0));
 
+	// Gates
 	sprites.push_back(new Sprite("assets/Gates_light_shadow2.png", shaderID));
 	sprites[3]->setScale(glm::vec3(100, 100, 0));
-	sprites[3]->setTranslate(glm::vec3(400, 100 / 2.0f, 0));
+	sprites[3]->setTranslate(glm::vec3(400, 50, 0));
 
+	// White Crystal
 	sprites.push_back(new Sprite("assets/white_crystal_light_shadow5.png", shaderID));
 	sprites[4]->setScale(glm::vec3(100, 100, 0));
-	sprites[4]->setTranslate(glm::vec3(750, 100 / 2.0f, 0));
+	sprites[4]->setTranslate(glm::vec3(750, 50, 0));
 
+	// Centipede
 	sprites.push_back(new Sprite("assets/centipede_dark_shadow1.png", shaderID));
 	sprites[5]->setScale(glm::vec3(300, 300, 0));
-	sprites[5]->setTranslate(glm::vec3(250, 100 / 2.0f, 0));
+	sprites[5]->setTranslate(glm::vec3(250, 150, 0));
 
-
+	// Dark Totem
 	sprites.push_back(new Sprite("assets/Dark_totem_dark_shadow1.png", shaderID));
 	sprites[6]->setScale(glm::vec3(300, 300, 0));
-	sprites[6]->setTranslate(glm::vec3(550, 150 / 2.0f, 0));
+	sprites[6]->setTranslate(glm::vec3(550, 150, 0));
+
 
 
 
