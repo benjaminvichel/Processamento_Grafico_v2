@@ -17,7 +17,7 @@ target_include_directories(Modulo2 PRIVATE
     ${GLM_INCLUDE_DIR}   # adiciona o glm aqui
 )
 
-# Linka a lib glfw3 (ajuste nome se for diferente)
+# Linka a lib glfw3
 target_link_libraries(Modulo2 PRIVATE
     "${GLFW_LIB_DIR}/glfw3.lib"
     opengl32  # OpenGL no Windows

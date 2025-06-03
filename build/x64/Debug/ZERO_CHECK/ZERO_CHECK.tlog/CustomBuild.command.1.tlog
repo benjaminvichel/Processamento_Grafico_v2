@@ -1,0 +1,10 @@
+^C:\USERS\BEN\SOURCE\REPOS2022\PROCESSAMENTOGRAFICO\BUILD\CMAKEFILES\B6E3FAF756871C3ABFE4D2C5073E8F81\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ben/source/repos2022/ProcessamentoGrafico -BC:/Users/ben/source/repos2022/ProcessamentoGrafico/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ben/source/repos2022/ProcessamentoGrafico/build/ProcessamentoGrafico.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

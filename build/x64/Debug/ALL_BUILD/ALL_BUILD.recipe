@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\ben\source\repos2022\ProcessamentoGrafico\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ben\source\repos2022\ProcessamentoGrafico\build\Exercicios\Modulo2\Debug\Modulo2.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ben\source\repos2022\ProcessamentoGrafico\build\Exercicios\Modulo4\Debug\Modulo4.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ben\source\repos2022\ProcessamentoGrafico\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

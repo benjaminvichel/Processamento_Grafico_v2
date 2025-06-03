@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/ben/source/repos2022/ProcessamentoGrafico/build/cmake_install.cmake",
+		"C:/Users/ben/source/repos2022/ProcessamentoGrafico/build/Exercicios/Modulo2/cmake_install.cmake",
+		"C:/Users/ben/source/repos2022/ProcessamentoGrafico/build/Exercicios/Modulo4/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

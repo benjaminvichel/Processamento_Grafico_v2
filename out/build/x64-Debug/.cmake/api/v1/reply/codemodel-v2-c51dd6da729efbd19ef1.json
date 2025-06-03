@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Exercicios/Modulo2",
+					"jsonFile" : "directory-Exercicios.Modulo2-Debug-6896e1cb4beb1aa1bc03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercicios/Modulo2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Exercicios/Modulo4",
+					"jsonFile" : "directory-Exercicios.Modulo4-Debug-5b3ddeeb48eac50120bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercicios/Modulo4",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ProcessamentoGrafico",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Modulo2::@c82bee524b609eed21c5",
+					"jsonFile" : "target-Modulo2-Debug-be6a7c3fb60d9441a67f.json",
+					"name" : "Modulo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Modulo4::@3cf2c14000257622af53",
+					"jsonFile" : "target-Modulo4-Debug-37a7e1b7bce797842803.json",
+					"name" : "Modulo4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug",
+		"source" : "C:/Users/ben/source/repos2022/ProcessamentoGrafico"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

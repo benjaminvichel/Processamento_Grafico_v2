@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ben\source\repos2022\ProcessamentoGrafico\build\CMakeFiles\b6e3faf756871c3abfe4d2c5073e8f81\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A9A8EECF-D677-3F25-B6EB-A99B2333B232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

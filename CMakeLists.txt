@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Adiciona subdiretórios dos exercícios
 add_subdirectory(Exercicios/Modulo2)
-# add_subdirectory(Exercicios/Exercicio01)  # pode ir adicionando outros
+add_subdirectory(Exercicios/Modulo4)

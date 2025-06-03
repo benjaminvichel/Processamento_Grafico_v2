@@ -14,21 +14,14 @@
 # EXTERNAL cache entries
 ########################
 
-//Build shared libraries
-BUILD_SHARED_LIBS:BOOL=OFF
-
 //Path to a program.
-CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/lib.exe
-
-//For backwards compatibility, what version of CMake commands and
-// syntax should this version of CMake try to support.
-CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
+CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
@@ -49,7 +42,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+CMAKE_C_COMPILER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
@@ -84,65 +77,20 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
+//Enable/Disable output of build database during the build.
+CMAKE_EXPORT_BUILD_DATABASE:BOOL=
+
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/CMakeFiles/pkgRedirects
 
-//User executables (bin)
-CMAKE_INSTALL_BINDIR:PATH=bin
-
-//Read-only architecture-independent data (DATAROOTDIR)
-CMAKE_INSTALL_DATADIR:PATH=
-
-//Read-only architecture-independent data root (share)
-CMAKE_INSTALL_DATAROOTDIR:PATH=share
-
-//Documentation root (DATAROOTDIR/doc/PROJECT_NAME)
-CMAKE_INSTALL_DOCDIR:PATH=
-
-//C header files (include)
-CMAKE_INSTALL_INCLUDEDIR:PATH=include
-
-//Info documentation (DATAROOTDIR/info)
-CMAKE_INSTALL_INFODIR:PATH=
-
-//Object code libraries (lib)
-CMAKE_INSTALL_LIBDIR:PATH=lib
-
-//Program executables (libexec)
-CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
-
-//Locale-dependent data (DATAROOTDIR/locale)
-CMAKE_INSTALL_LOCALEDIR:PATH=
-
-//Modifiable single-machine data (var)
-CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
-
-//Man documentation (DATAROOTDIR/man)
-CMAKE_INSTALL_MANDIR:PATH=
-
-//C header files for non-gcc (/usr/include)
-CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
-
 //No help, variable specified on the command line.
 CMAKE_INSTALL_PREFIX:PATH=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/install/x64-Debug
 
-//Run-time variable data (LOCALSTATEDIR/run)
-CMAKE_INSTALL_RUNSTATEDIR:PATH=
-
-//System admin executables (sbin)
-CMAKE_INSTALL_SBINDIR:PATH=sbin
-
-//Modifiable architecture-independent data (com)
-CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
-
-//Read-only single-machine data (etc)
-CMAKE_INSTALL_SYSCONFDIR:PATH=etc
-
 //Path to a program.
-CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/link.exe
+CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
 
 //make program
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe
@@ -178,21 +126,6 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=ProcessamentoGrafico
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.34
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=34
-
-//Value Computed by CMake
-CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe
@@ -265,122 +198,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Doxygen documentation generation tool (https://www.doxygen.nl)
-DOXYGEN_EXECUTABLE:FILEPATH=C:/Program Files/doxygen/bin/doxygen.exe
-
-//Single output directory for building all executables.
-EXECUTABLE_OUTPUT_PATH:PATH=
-
-//Directory under which to collect all populated content
-FETCHCONTENT_BASE_DIR:PATH=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps
-
-//Disables all attempts to download or update content and assumes
-// source dirs already exist
-FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
-
-//Enables QUIET option for all content population
-FETCHCONTENT_QUIET:BOOL=ON
-
-//When not empty, overrides where to find pre-populated content
-// for glad
-FETCHCONTENT_SOURCE_DIR_GLAD:PATH=
-
-//When not empty, overrides where to find pre-populated content
-// for glfw
-FETCHCONTENT_SOURCE_DIR_GLFW:PATH=
-
-//Enables UPDATE_DISCONNECTED behavior for all content population
-FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of glad
-FETCHCONTENT_UPDATES_DISCONNECTED_GLAD:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of glfw
-FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
-
-//Git command line client
-GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
-
-//Include all extensions instead of those specified by GLAD_EXTENSIONS
-GLAD_ALL_EXTENSIONS:BOOL=OFF
-
-//API type/version pairs, like "gl=3.2,gles=", no version means
-// latest
-GLAD_API:STRING=
-
-//Value Computed by CMake
-GLAD_BINARY_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-build
-
-//Set export variables for external project
-GLAD_EXPORT:BOOL=ON
-
-//Path to extensions file or comma separated list of extensions,
-// if missing all extensions are included
-GLAD_EXTENSIONS:STRING=
-
-//Language to generate the binding for
-GLAD_GENERATOR:STRING=c
-
-//Generate installation target
-GLAD_INSTALL:BOOL=OFF
-
-//Value Computed by CMake
-GLAD_IS_TOP_LEVEL:STATIC=OFF
-
-//No loader
-GLAD_NO_LOADER:BOOL=OFF
-
-//Output directory
-GLAD_OUT_DIR:STRING=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-build
-
-//OpenGL profile
-GLAD_PROFILE:STRING=compatibility
-
-//Reproducible build
-GLAD_REPRODUCIBLE:BOOL=OFF
-
-//Value Computed by CMake
-GLAD_SOURCE_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glad-src
-
-//Name of the spec
-GLAD_SPEC:STRING=gl
-
-//Value Computed by CMake
-GLFW_BINARY_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glfw-build
-
-//Build the GLFW documentation
-GLFW_BUILD_DOCS:BOOL=ON
-
-//Build the GLFW example programs
-GLFW_BUILD_EXAMPLES:BOOL=ON
-
-//Build the GLFW test programs
-GLFW_BUILD_TESTS:BOOL=ON
-
-//Generate installation target
-GLFW_INSTALL:BOOL=ON
-
-//Value Computed by CMake
-GLFW_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-GLFW_SOURCE_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug/_deps/glfw-src
-
-//Force use of high-performance GPU on hybrid systems
-GLFW_USE_HYBRID_HPG:BOOL=OFF
-
-//Assume the Vulkan loader is linked with the application
-GLFW_VULKAN_STATIC:BOOL=OFF
-
-//Single output directory for building all libraries.
-LIBRARY_OUTPUT_PATH:PATH=
-
-//OpenGL library for win32
-OPENGL_gl_LIBRARY:STRING=opengl32
-
-//GLU library for win32
-OPENGL_glu_LIBRARY:STRING=glu32
-
 //Value Computed by CMake
 ProcessamentoGrafico_BINARY_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug
 
@@ -389,18 +206,6 @@ ProcessamentoGrafico_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ProcessamentoGrafico_SOURCE_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/build/x64-Debug
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=C:/Users/ben/source/repos2022/ProcessamentoGrafico
-
-//Use MSVC runtime library DLL
-USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
 
 
 ########################
@@ -414,9 +219,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/ben/source/repos2022/ProcessamentoGrafico/
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=29
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=31
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=6
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe
 //Path to cpack program executable.
@@ -463,6 +268,8 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_BUILD_DATABASE
+CMAKE_EXPORT_BUILD_DATABASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
@@ -475,47 +282,9 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
-//Have library pthreads
-CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
-//Have library pthread
-CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/ben/source/repos2022/ProcessamentoGrafico
-//ADVANCED property for variable: CMAKE_INSTALL_BINDIR
-CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_DATADIR
-CMAKE_INSTALL_DATADIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_DATAROOTDIR
-CMAKE_INSTALL_DATAROOTDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_DOCDIR
-CMAKE_INSTALL_DOCDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_INCLUDEDIR
-CMAKE_INSTALL_INCLUDEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_INFODIR
-CMAKE_INSTALL_INFODIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_LIBDIR
-CMAKE_INSTALL_LIBDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_LIBEXECDIR
-CMAKE_INSTALL_LIBEXECDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_LOCALEDIR
-CMAKE_INSTALL_LOCALEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_LOCALSTATEDIR
-CMAKE_INSTALL_LOCALSTATEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_MANDIR
-CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
-CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_RUNSTATEDIR
-CMAKE_INSTALL_RUNSTATEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_SBINDIR
-CMAKE_INSTALL_SBINDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_SHAREDSTATEDIR
-CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_INSTALL_SYSCONFDIR
-CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -531,7 +300,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -550,7 +319,7 @@ CMAKE_RC_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_FLAGS_RELWITHDEBINFO
 CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29
+CMAKE_ROOT:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -577,33 +346,4 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DOXYGEN_EXECUTABLE
-DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
-//Details about finding Doxygen
-FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[C:/Program Files/doxygen/bin/doxygen.exe][cfound components: doxygen ][v1.13.2()]
-//Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
-//Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/ben/AppData/Local/Programs/Python/Python312/python.exe][cfound components: Interpreter ][v3.12.1()]
-//Details about finding Threads
-FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: GIT_EXECUTABLE
-GIT_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_glu_LIBRARY
-OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
-//CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Users/ben/source/repos2022/ProcessamentoGrafico/out/install/x64-Debug
-//Compiler reason failure
-_Python_Compiler_REASON_FAILURE:INTERNAL=
-//Development reason failure
-_Python_Development_REASON_FAILURE:INTERNAL=
-//Path to a program.
-_Python_EXECUTABLE:INTERNAL=C:/Users/ben/AppData/Local/Programs/Python/Python312/python.exe
-//Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;1;64;32;;cp312-win_amd64;;C:\Users\ben\AppData\Local\Programs\Python\Python312\Lib;C:\Users\ben\AppData\Local\Programs\Python\Python312\Lib;C:\Users\ben\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Users\ben\AppData\Local\Programs\Python\Python312\Lib\site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=6756eb73fd3237e008b31c63d9b5f4af
-//NumPy reason failure
-_Python_NumPy_REASON_FAILURE:INTERNAL=
 
