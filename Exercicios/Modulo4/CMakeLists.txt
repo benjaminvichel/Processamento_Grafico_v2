@@ -13,7 +13,7 @@ target_include_directories(Modulo4 PRIVATE
     ${GLAD_INCLUDE_DIR}
     ${GLFW_INCLUDE_DIR}
     ${GLM_INCLUDE_DIR}
-    "${CMAKE_SOURCE_DIR}/Exercicios/Modulo4"  # ajuste conforme caminho do stb_image.h
+    "${CMAKE_SOURCE_DIR}/Exercicios/Modulo4"
 )
 
 target_link_libraries(Modulo4 PRIVATE

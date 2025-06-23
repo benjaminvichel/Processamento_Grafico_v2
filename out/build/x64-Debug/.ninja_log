@@ -1,0 +1,25 @@
+# ninja log v6
+11	1639	7724134489800775	Exercicios/Modulo4/CMakeFiles/Modulo4.dir/main.cpp.obj	cdcfe0975536cc6f
+17	754	7724134489956730	Exercicios/Modulo4/CMakeFiles/Modulo4.dir/__/__/common/glad/src/glad.c.obj	434b44ca21ea13cf
+25	1115	7724134489956730	Exercicios/Modulo4/CMakeFiles/Modulo4.dir/Sprite.cpp.obj	dfeb453c240e5c6c
+23	373	7724136381246409	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/__/__/common/glad/src/glad.c.obj	396d3336e757d0e5
+18	318	7724151363692975	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
+14	1344	7724145868450347	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/main.cpp.obj	532346fbd0b9854e
+1639	2172	7724134506143398	Exercicios/Modulo4/Modulo4.exe	4992e9d1c2200e4a
+2177	2533	7724134511612160	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/__/__/common/glad/src/glad.c.obj	4703a2ae6aa743bd
+15	835	7724151313321539	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/Sprite.cpp.obj	5692b407b394465b
+16	872	7724136381090165	Exercicios/Modulo2/CMakeFiles/Modulo2.dir/main.cpp.obj	17b27a6adbb15451
+873	1226	7724136389746362	Exercicios/Modulo2/Modulo2.exe	6d4ee3989c72f930
+16	467	7724142116299368	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/CharacterController.cpp.obj	abfdfd75cc25953a
+11	204	7724157109543816	build.ninja	166a50c091502f0
+16	753	7724164949239999	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/CharacterController.cpp.obj	abfdfd75cc25953a
+754	1110	7724164956557223	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
+16	1339	7724165213206264	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/main.cpp.obj	532346fbd0b9854e
+1340	1628	7724165226500142	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
+15	438	7724165587663871	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/CharacterController.cpp.obj	abfdfd75cc25953a
+439	692	7724165591882708	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
+16	450	7724166019184646	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/CharacterController.cpp.obj	abfdfd75cc25953a
+451	716	7724166023559652	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
+23	460	7724170081585330	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/CharacterController.cpp.obj	abfdfd75cc25953a
+16	1365	7724170081585330	Exercicios/Modulo5/CMakeFiles/Modulo5.dir/main.cpp.obj	532346fbd0b9854e
+1366	1657	7724170095053842	Exercicios/Modulo5/Modulo5.exe	80e3b6e2af593c53
